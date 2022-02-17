@@ -2,5 +2,5 @@ package solution
 import "github.com/kyokomi/emoji/v2"
 
 func GetMessage() string {
-	return "Hello, :flag-kz:!"
+	return emoji.Println("Hello, :flag-kz:!")
 }
